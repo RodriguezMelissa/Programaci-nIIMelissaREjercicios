@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XwiLPK1VbMqo4HWW8h3riSMzuIai8O4gJS5tcNL3bziLmZG1xVPas6s8+x+oyMBNU8dm+6MOu//vsuuXsu6dWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ELECTRONICA8901\\source\\repos\\WpfMenu\\WpfMenu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ELECTRONICA8901\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\ELECTRONICA8901\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

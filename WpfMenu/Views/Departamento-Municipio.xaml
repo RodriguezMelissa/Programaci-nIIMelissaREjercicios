@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfMenu.Views.Departamento_Municipio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMenu.Views"
+        mc:Ignorable="d"
+        Title="Departamento_Municipio" Height="450" Width="800">
+    <Grid>
+
+
+        <ComboBox Name ="btndepart" HorizontalAlignment="Left" Margin="42,18,0,0" VerticalAlignment="Top" Width="300" SelectionChanged="btndepart_SelectionChanged">
+            <ComboBoxItem>Boaco</ComboBoxItem>
+            <ComboBoxItem>Carazo</ComboBoxItem>
+            <ComboBoxItem>Chinandega</ComboBoxItem>
+            <ComboBoxItem>Chontales</ComboBoxItem>
+            <ComboBoxItem>Esteli</ComboBoxItem>
+            <ComboBoxItem>Granada</ComboBoxItem>
+            <ComboBoxItem>Jinotega</ComboBoxItem>
+            <ComboBoxItem>León</ComboBoxItem>
+            <ComboBoxItem>Madriz</ComboBoxItem>
+            <ComboBoxItem>Managua</ComboBoxItem>
+            <ComboBoxItem>Matagalpa</ComboBoxItem>
+            <ComboBoxItem>Masaya</ComboBoxItem>
+            <ComboBoxItem>Nueva Segovia</ComboBoxItem>
+            <ComboBoxItem>Rio San Juan</ComboBoxItem>
+            <ComboBoxItem>Rivas</ComboBoxItem>
+            <ComboBoxItem>Costa Caribe Norte</ComboBoxItem>
+            <ComboBoxItem>Costa Caribe sur</ComboBoxItem>
+        </ComboBox>
+
+        <ComboBox Name = "btndmunicipio" HorizontalAlignment="Left" Margin="444,18,0,0" VerticalAlignment="Top" Width="297" SelectionChanged="btnmunicipio_SelectionChanged">
+
+        </ComboBox>
+
+
+
+
+    </Grid>
+</Window>

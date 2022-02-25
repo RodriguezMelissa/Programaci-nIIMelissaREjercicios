@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfMenu.Views.WindowMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:WpfMenu.Views"
+        mc:Ignorable="d"
+        Title="WindowMenu" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Menu x:Name="Menu" IsMainMenu ="True" Grid.Row="0" Grid.Column="0">
+            <MenuItem Header="Aplicación">
+                <MenuItem Header="Configurar" Name ="btnConfigurar" Click="btnConfigurar_Click">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Gear"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name = "btnSalir" Header="Salir">
+                    <MenuItem.Icon >
+                        <materialDesign:PackIcon Kind="ExitToApp"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Miscelaneos">
+                <MenuItem Name = "btnTextos" Header="Textos" Click="btnTextos_Click">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Text"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Localidad">
+                    <MenuItem Name="btnnicaragua" Header=" Nicaragua" Click="btnnicaragua_Click"/>
+                        
+                        
+                </MenuItem>
+                <MenuItem Name = "btnConvertidordemonedas" Header="Convertidor de Monedas" Click="btnConvertidordemonedas_Click">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Money"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+
+        </Menu>
+       
+
+    </Grid>
+  </Window>
